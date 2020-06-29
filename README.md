@@ -1,23 +1,12 @@
-# 背景
-
-浏览器插件，功能强大，用户众多。
-
-尤其是 AE 所在的国际化场景里，插件用户更是相当可观，单单针对其中一个竞品：`亚马逊助手` 谷歌浏览器插件，就有近千万的装机量。
-
-插件相对于传统的网站来说，有一个更高层级的视角，可以实现跨站，以浏览器级别实现业务功能，这无疑是一个更大的舞台，在现在使用者越来越多，业务需求越来越复杂的情况下，占住这块领域非常重要。
-
-针对上面这些点，AE 要实现一系列或大或小的浏览器插件相关业务需求。而浏览器插件这个领域国内包括集团内部还是相对落后，所以 AE 技术流量团队构建实践出了一个浏览器插件工程化最佳实践 `Ken` ，结合集团内部的一些技术方案，来方便快捷完成或大或小的各种业务。以脚手架的方式来快速创建项目，快速迭代开发。
-
 # 特性
 
 - 🍔 技术栈：`React & TypeScript & Redux`，现代前端工程化开发模式，让你从开发 `SPA` 无缝切换到 `chrome` 扩展开发
 - 🔥 热更新，自动重载 `content scripts`，自动化刷新注入页面，开发体验丝般顺滑
 - ⚒️ ​ 自带 `webpack` 相关打包优化配置，集成若干插件，优化开发构建打包流程。
-- 🦁 封装集团内部若干技术体系，如`美杜莎`、`Aplus`等，接入配置的坑，都帮你踩过了！
 
 # 架构设计
 
-![image.png](https://ata2-img.oss-cn-zhangjiakou.aliyuncs.com/e19bf86c2ca103f58cbe5ecace6ec701.png)
+![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/284871/1593342840509-c94a1883-a45f-4a56-86e4-f0fd7c2b5b56.png)
 结构目录：
 
 ```
@@ -106,16 +95,8 @@ Ken 会自动将 contents 下的文件夹打包成若干 js，通过配置 manif
 
 # 开始
 
-目前已集成入 `bell` 脚手架，选择 Extension 开发即可
-
 ```shell
-def init bell
-```
-
-如果 `bell` 没有（可能版本不对），也可以直接 `git clone` 下来脚手架
-
-```shell
-git clone http://gitlab.alibaba-inc.com/ae-traffic-kn/ken.git
+git clone https://github.com/Knove/Ken.git
 ```
 
 # 调试
