@@ -1,0 +1,13 @@
+@import '~styles/reset.scss';
+
+.app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 570px;
+    height: 277px;
+
+    .title {
+        text-align: center;
+    }
+}

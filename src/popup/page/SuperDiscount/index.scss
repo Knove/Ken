@@ -1,0 +1,25 @@
+.superdiscount_content {
+    width: 100%;
+    padding: 20px 50px;
+    overflow: auto;
+    background: #fff;
+
+    .top_img {
+        width: 590px;
+        height: 100px;
+        margin: 10px 0 0 10px;
+        border-radius: 10px;
+    }
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    button {
+        margin-left: 10px;
+    }
+
+    .func-button {
+        margin-top: 20px;
+    }
+}
