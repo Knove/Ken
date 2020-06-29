@@ -5,10 +5,10 @@
     "private": true,
     "author": "Knove",
     "license": "MIT",
-    "homepage": "http://gitlab.alibaba-inc.com/ae-traffic-kn/ken",
+    "homepage": "https://github.com/Knove/Ken",
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@gitlab.alibaba-inc.com:ae-traffic-kn/ken.git"
+        "url": "git+ssh://git@github.com:Knove/Ken.git"
     },
     "scripts": {
         "start": "cross-env-shell NODE_ENV=development ts-node --files -P ./server/tsconfig.json ./server",
